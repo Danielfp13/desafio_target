@@ -34,3 +34,14 @@ c) 0, 1, 4, 9, 16, 25, 36, 49 -> Cada número da sequência é o quadrado de sua
 d) 4, 16, 36, 64, 100 -> Cada número é o quadrado de um número par, começando do 2.
 e) 1, 1, 2, 3, 5, 8, 13 -> A sequencia de Fibonacci.
 f) 2,10, 12, 16, 17, 18, 19, 200 -> Números que começam coma letra 'D'.
+
+5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes.
+   Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. 
+   Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, 
+   usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?  
+   
+  1-Ligo o primeiro interruptor, aguardo alguns minutos e o desligo.
+  2- Ligo o segundo interruptor e o deixo ligado.
+  3-Verifico a primeira sala: se a lâmpada estiver desligada e quente, corresponde ao primeiro interruptor; se estiver 	ligada, corresponde ao segundo interruptor; se estiver desligada e fria, corresponde ao terceiro interruptor.
+  4- Verifico a segunda sala: se a lâmpada estiver desligada e quente, corresponde ao primeiro interruptor; se estiver 	ligada, corresponde ao segundo interruptor; se estiver desligada e fria, corresponde ao terceiro interruptor.
+  5- Deduzo que a sala restante corresponde ao último interruptor.
